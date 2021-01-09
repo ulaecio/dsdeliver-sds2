@@ -5,7 +5,7 @@ function StepsHeaders() {
         <h1 className="steps-title">
           SIGA AS <br /> ETAPAS
         </h1>
-        <ul className="steps-itens">
+        <ul className="steps-items">
           <li>
             <span className="steps-number">1</span>
             Selecione os produtos e localização.
@@ -20,4 +20,4 @@ function StepsHeaders() {
   )
 }
 
-export default StepsHeaders;
+export default StepsHeaders; 
