@@ -78,6 +78,13 @@
   border-radius: 10px;
 }
 
+.order-card-container.selected .order-card-title {
+  color: #008E5B;
+}
+
+.order-card-container.selected .order-card-price {
+  color: #008E5B;
+}
 .order-card-container:hover {
   transform: scale(1.01);
 }
@@ -91,9 +98,6 @@
   text-align: center;
 }
 
-.order-card-container.selected .order-card-title {
-  color: #008E5B;
-}
 
 .order-card-image {
   border-radius: 10px;
@@ -111,9 +115,6 @@
   text-align: left;
 }
 
-.order-card-container.selected .order-card-price {
-  color: #008E5B;
-}
 
 .order-card-description {
   border-top: 1px solid #E6E6E6;
